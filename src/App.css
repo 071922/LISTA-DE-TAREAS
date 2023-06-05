@@ -1,0 +1,15 @@
+.container {
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  width: 90%;
+  border: 1px;
+  background-color: aqua;
+  padding: 40px;
+}
+
+.add-btn {
+  float: right;
+  background-color: rgb(250, 215, 215);
+  color: rgb(187, 17, 17);
+  }
