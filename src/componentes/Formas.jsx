@@ -21,9 +21,9 @@ const suSumit = (e) => {
 
   return (
     
-    <div style = {{margin: 100}}>
+    <div style = {{margin: 50}}>
         <form onSubmit={suSumit}>
-            <input type = "text" value = {usarInput} onChange = {ingresarTexto}/> 
+            <input type = "text" value = {usarInput} onChange = {ingresarTexto} /> 
             <button>Agregar</button>
             </form>
     </div>

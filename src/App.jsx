@@ -5,9 +5,11 @@ import './App.css';
 import ListaCompleta from './componentes/ListaCompleta';
 import Formas from './componentes/Formas';
 
+
 function App() {
 
   const [tareas , setTareas] = useState(Datos);
+ 
 
   const onCompleto = (id) => {
     setTareas(tareas.map((tarea) => {
@@ -26,13 +28,13 @@ function App() {
     setTareas([...tareas, newItem]);
   }
 
-  return (
+    return (
 
         <div className='container'>
           <h2><center>TODO APP</center></h2>
         <Formas addTodo = {addTodo}/>
-       <ListaCompleta tareas = {tareas} onCompleto = {onCompleto} onBorrarItem = {onBorrarItem}/>
-      </div>
+       <ListaCompleta tareas = {tareas} onCompleto = {onCompleto} onBorrarItem = {onBorrarItem} />
+        </div>
       )
 }
 

@@ -9,7 +9,7 @@ function ListaCompleta({tareas, onCompleto, onBorrarItem}) {
     <div>
         {
             tareas.map((tarea, index) => (
-                <TareaItem key ={`tarea-${index}`} tarea = {tarea} onCompleto = {onCompleto} onBorrarItem = {onBorrarItem}/>
+                <TareaItem key ={`tarea-${index}`} tarea = {tarea} onCompleto = {onCompleto} onBorrarItem = {onBorrarItem} />
             ))
         }
     </div>

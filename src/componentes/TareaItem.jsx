@@ -9,7 +9,7 @@ function TareaItem({tarea , onCompleto, onBorrarItem}) {
       textDecoration: tarea.completed ? 'line-through' : 'none',
       margin: '30px',
       border: '5px solid #ffffff',
-      padding: '5px'
+      padding: '10px'
      }
   }
 

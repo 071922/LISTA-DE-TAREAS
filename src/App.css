@@ -6,10 +6,13 @@
   border: 1px;
   background-color: aqua;
   padding: 40px;
+  justify-content: space-around;
 }
 
 .add-btn {
   float: right;
-  background-color: rgb(250, 215, 215);
-  color: rgb(187, 17, 17);
+  background-color: rgb(244, 10, 10);
+  padding-right: 20px;
+  text-align: justify;
   }
+
